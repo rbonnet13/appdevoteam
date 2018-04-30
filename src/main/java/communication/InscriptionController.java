@@ -7,4 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class InscriptionController {
 
     @RequestMapping("/inscription.html")
+    public String welcome(Map<String, Object> model) {
+		model.put("message", this.message);
+		return "welcome";
+	}
  } 
