@@ -1,19 +1,25 @@
-import java.io.IOException;
+package appdevoteam;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
-public class Application extends HttpServlet {
-    public static final String VUE = "/WEB-INF/application.jsp";
-	
-    public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
-        /* Affichage de la page d'inscription */
-        this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
+@SpringBootApplication
+public class Application extends SpringBootServletInitializer {
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
     }
-    
-    public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
-        /* Traitement des données du formulaire */
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(Application.class);
     }
 }
