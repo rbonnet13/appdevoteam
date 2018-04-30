@@ -1,9 +1,9 @@
 package appdevoteam;
 import java.util.Map;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
 import org.springframework.beans.factory.annotation.Value;
-@RestController
+@Controller
 public class ConnexionController {
 	// inject via application.properties
 		@Value("${welcome.message:test}")
