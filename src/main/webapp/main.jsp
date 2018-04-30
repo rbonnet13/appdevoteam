@@ -7,7 +7,7 @@
 
 <ul>
   <li><a class="active" href="#home">Accueil</a></li>
-  <li><a href="#news">Applications</a></li>
+  <li><a href="#applications">Applications</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">DEVOTEAM</a></li>
 </ul>

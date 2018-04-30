@@ -11,10 +11,16 @@ package org.exemple.demo;
  * Hello world!
  *
  */
-public class Main 
+public class Main extends HttpServlet
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+	public static final String VUE = "/WEB-INF/main.jsp";
+	
+    public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
+        /* Affichage de la page d'inscription */
+        this.getServletContext().getRequestDispatcher( VUE ).forward( request, response );
+    }
+    
+    public void doPost( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
+        /* Traitement des données du formulaire */
     }
 }
