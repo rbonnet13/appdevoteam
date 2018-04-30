@@ -5,8 +5,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Application extends HttpServlet {
-    public static final String VUE = "/WEB-INF/Application.jsp";
+public class Connexion extends HttpServlet {
+    public static final String VUE = "/WEB-INF/connexion.jsp";
 	
     public void doGet( HttpServletRequest request, HttpServletResponse response ) throws ServletException, IOException{
         /* Affichage de la page d'inscription */
