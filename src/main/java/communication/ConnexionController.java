@@ -10,4 +10,4 @@ public class ConnexionController {
     public String sayHello(){
         return ("Hello, SpringBoot on Wildfly");
     }
-}
+} 

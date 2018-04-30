@@ -10,4 +10,4 @@ public class HomeController {
     public String sayHello(){
         return ("Hello, SpringBoot on Wildfly");
     }
-}
+} 
