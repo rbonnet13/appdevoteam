@@ -5,12 +5,12 @@
     <head>
         <meta charset="utf-8" />
         <title>Connexion</title>
-        <link type="text/css" rel="stylesheet" href="form.css" />
+        <link type="text/css" rel="stylesheet" href="style.css" />
     </head>
     <body>
     <ul>
 	  <li><a class="active" href="#home">Accueil</a></li>
-	  <li><a href="/Inscription.jsp">Inscription</a></li>
+	  <li><a href="/inscription.jsp">Inscription</a></li>
 	  <li><a href="#contact">Contact</a></li>
 	  <li><a href="#about">DEVOTEAM</a></li>
 	</ul>
