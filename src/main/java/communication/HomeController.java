@@ -4,6 +4,7 @@ import java.util.Map;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.stereotype.Controller;
 import org.springframework.beans.factory.annotation.Value;
+
 @Controller
 public class HomeController {
 	// inject via application.properties
