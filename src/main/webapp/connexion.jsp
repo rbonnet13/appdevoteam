@@ -8,6 +8,12 @@
         <link type="text/css" rel="stylesheet" href="form.css" />
     </head>
     <body>
+    <ul>
+	  <li><a class="active" href="#home">Accueil</a></li>
+	  <li><a href="/Inscription.jsp">Inscription</a></li>
+	  <li><a href="#contact">Contact</a></li>
+	  <li><a href="#about">DEVOTEAM</a></li>
+	</ul>
         <form method="post" action="connexion">
             <fieldset>
                 <legend>Connexion</legend>
