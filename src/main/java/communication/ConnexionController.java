@@ -2,7 +2,7 @@ package appdevoteam;
 import java.util.Map;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.beans.factory.annotation.Value;
 @RestController
 public class ConnexionController {
 	// inject via application.properties
