@@ -8,6 +8,12 @@
         <link type="text/css" rel="stylesheet" href="style.css" />
     </head>
     <body>
+    <ul>
+	  <li><a class="active" href="#home">Accueil</a></li>
+	  <li><a href="#conexion">Connexion</a></li>
+	  <li><a href="#contact">Contact</a></li>
+	  <li><a href="#about">DEVOTEAM</a></li>
+	</ul>
         <form method="post" action="connexion">
             <fieldset>
                 <legend>Connexion</legend>
@@ -30,14 +36,4 @@
             </fieldset>
         </form>
     </body>
-</html>
-
-<ul>
-  <li><a class="active" href="#home">Accueil</a></li>
-  <li><a href="#news">Applications</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">DEVOTEAM</a></li>
-</ul>
-
-</body>
 </html>
