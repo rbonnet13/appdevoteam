@@ -9,8 +9,8 @@
     </head>
     <body>
     <ul>
-	  <li><a class="active" href="#home">Accueil</a></li>
-	  <li><a href="#conexion">Connexion</a></li>
+	  <li><a class="active" href="index.html">Accueil</a></li>
+	  <li><a class="active" href="/connexion.jsp">Connexion</a></li>
 	  <li><a href="#contact">Contact</a></li>
 	  <li><a href="#about">DEVOTEAM</a></li>
 	</ul>
