@@ -3,9 +3,13 @@
 body, p, legend, label, input {
     font: normal 8pt verdana, helvetica, sans-serif;
 }
-body {
+.img-back {
 	background-image: url("../images/devoteam.jpg");
-}
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 900px 400px;
+    height: 350px;
+ }
 
 fieldset {
     padding: 10px;
