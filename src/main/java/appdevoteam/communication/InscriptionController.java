@@ -1,4 +1,4 @@
-package com.appdevoteam;
+package appdevoteam;
 
 import java.util.Map;
 

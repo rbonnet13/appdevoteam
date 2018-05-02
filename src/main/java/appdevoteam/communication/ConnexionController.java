@@ -1,4 +1,4 @@
-package com.appdevoteam;
+package appdevoteam;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
