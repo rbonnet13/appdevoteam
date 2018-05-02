@@ -1,3 +1,5 @@
+package com.appdevoteam;
+
 import java.util.Map;
 
 import org.springframework.web.bind.annotation.RequestMapping;
