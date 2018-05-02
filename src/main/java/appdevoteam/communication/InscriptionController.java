@@ -10,6 +10,6 @@ public class InscriptionController {
 		
     @RequestMapping("/inscription")
     public String sayHello(){
-        return ("Hello, SpringBoot on Wildfly");
+        return ("Hello, Inscription page");
     }
  } 

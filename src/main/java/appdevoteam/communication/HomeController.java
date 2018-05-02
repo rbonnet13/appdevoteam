@@ -12,6 +12,6 @@ public class HomeController {
 			
 	 @RequestMapping("/")
 	    public String Hello(){
-	        return ("Hello, SpringBoot on Wildfly");
+	        return ("Hello, Home page");
 	    }
 }

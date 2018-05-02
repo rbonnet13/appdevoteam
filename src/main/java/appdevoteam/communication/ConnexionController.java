@@ -8,6 +8,6 @@ public class ConnexionController {
 
     @RequestMapping("/connexion")
     public String sayHello(){
-        return ("Hello, SpringBoot on Wildfly");
+        return ("Hello, Connexion page");
     }
 } 
