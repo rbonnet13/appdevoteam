@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConnexionController {
 
-    @RequestMapping("/connexion.html")
+    @RequestMapping("/connexion")
     public String sayHello(){
         return ("Hello, SpringBoot on Wildfly");
     }

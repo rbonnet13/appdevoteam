@@ -10,7 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 			
-	 @RequestMapping("/index.html")
+	 @RequestMapping("/index")
+	    public String sayHello(){
+	        return ("Hello, SpringBoot on Wildfly");
+	    }
+	 @RequestMapping("/")
 	    public String sayHello(){
 	        return ("Hello, SpringBoot on Wildfly");
 	    }

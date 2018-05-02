@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class InscriptionController {
 		
-    @RequestMapping("/inscription.html")
+    @RequestMapping("/inscription")
     public String sayHello(){
         return ("Hello, SpringBoot on Wildfly");
     }
