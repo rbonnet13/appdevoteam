@@ -4,7 +4,7 @@ body, p, legend, label, input {
     font: normal 8pt verdana, helvetica, sans-serif;
 }
 body {
-	background-image: url("images/devoteam.jpg");
+	background-image: url("../images/devoteam.jpg");
 }
 
 fieldset {
